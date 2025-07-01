@@ -1,0 +1,65 @@
+footer{
+    max-width: 100vw;
+    height: auto;
+    background-color: #1C2024;
+}
+.Footer__Information{
+    padding-top: 40px;
+    padding-left: 35px;
+}
+.hires{
+    position: absolute;
+}
+.FooterLinks{
+    display: flex;
+    margin-left: 270px;
+    gap: 30px;
+}
+.forСompanie{
+    list-style-type: none;
+}
+.forСompani{
+    line-height: 1.9;
+}
+.forСompani h4{
+    color: white;
+}
+.forСompani p{
+    color: white;
+}
+.forСompani a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.4s;
+    font-size: 14px;
+} 
+.forСompani a:hover{
+    color: rgb(106, 106, 223);
+}
+
+.forСompani button{
+    width: 139px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3F2700;
+    color: #FFCA16;
+}
+
+.ldoe{
+    max-width: 100vw;
+    height: 1px;
+    background-color: gray;
+    margin-top: 15px;
+}
+
+.socialNetworks{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.network img{
+    cursor: pointer;
+}
